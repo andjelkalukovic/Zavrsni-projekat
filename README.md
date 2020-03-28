@@ -21,3 +21,7 @@ Aplikacija poseduje niz obaveznih funkcionalnosti:
 * Logovanje i Registracija moraju biti realizovani kroz komunikaciju sa serverom.
 
 ## Slobodne funkcionalnosti
+
+Aplikacija prikazuje recepte sortirane po vrsti jela tj. glavnog sastojka. 
+* Na vrhu stranice postoji input polje koje omogućava pretragu recepta po nazivu ili glavnom sastojku.
+* Klikom na sliku recepta, otvara se originalni izvor recepta.
