@@ -25,3 +25,4 @@ Aplikacija poseduje niz obaveznih funkcionalnosti:
 Aplikacija prikazuje recepte sortirane po vrsti jela tj. glavnog sastojka. 
 * Na vrhu stranice postoji input polje koje omogućava pretragu recepta po nazivu ili glavnom sastojku.
 * Klikom na sliku recepta, otvara se originalni izvor recepta.
+* Svaki recept ima dugme "Show ingredients". Klikom na dugme prikazuje lista potrebnih sastojaka, a tekst dugmeta se menja u "Hide ingredients". Drugim klikom na dugme sastojci ponovo postaju sakriveni, a tekst dugmeta se vraća na prvobitno stanje.
