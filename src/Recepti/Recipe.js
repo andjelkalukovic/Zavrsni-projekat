@@ -14,7 +14,7 @@ class Recipe extends React.Component{
 
     }
     render(){
-        let buttonText= this.state.showMe ? "Hide ingredient" : "Show ingredient"
+        let buttonText= this.state.showMe ? "Hide ingredients" : "Show ingredients"
         return(
             <div>
             <h1>{this.props.title}</h1>
@@ -31,27 +31,6 @@ class Recipe extends React.Component{
         )
     }
 }
-
-// const Recipe=(props)=>{
-//     const handleClick=()=>{ 
-//         console.log('dugme') // eslint-disable-next-line
-//         return (<>
-//         {props.ingredientLines}
-//         </>
-//         )
-//     }
-//     return(
-//         <div>
-//             <h1>{props.title}</h1>
-//             <a href={props.url} target="_blank" rel="noopener noreferrer"> 
-//             <img src={props.image} alt={props.title}/> </a>
-//             <p>{props.dietLabels}</p>
-//             <div>
-//                 {props.ingredientLines.slice(0,3)}
-//                 <button onClick={handleClick}>show more...</button>
-//             </div>
-//         </div>
-//     )
-// }
+  
 export default Recipe;
 //.map((line,key)=>(<span key={key}>{line}</span>))

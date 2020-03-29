@@ -11,6 +11,7 @@ import Login from './layout/public/components/Login';
 // import Axios from 'axios';
 import ReceptiList from './Recepti/ReceptiTest';
 
+
 function App() {
 //   const API_ID = 'bc7a9ea8'
 //   const API_KEY='aeeb79e4ea32cf8eb4687aee4313b164'
@@ -39,9 +40,7 @@ function App() {
         <Redirect from='/' to='home' />
       </Switch>
     </BrowserRouter>
-    <div>
-      {/* <Cocktail drink={drinks}/> */}
-    </div>
+    
     </>
   );
 }

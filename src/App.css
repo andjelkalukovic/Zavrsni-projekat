@@ -36,3 +36,9 @@
     transform: rotate(360deg);
   }
 }
+.scroll-to-top{
+  position: fixed;
+  top: 90vh;
+  left: 45vw;
+  background-color: #376E67;
+}
