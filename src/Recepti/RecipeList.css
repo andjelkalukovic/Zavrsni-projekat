@@ -1,0 +1,65 @@
+.recipe-list{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+.recipe-list button{
+    padding: 10px 35px;
+    background-color: #376E67;
+    border-radius: 25px;
+    color: #fcfcfc;
+    border: 3px solid #376E67;
+    font-size: 15px;
+    outline: none;
+}
+.recipe-list button:hover {
+    background-color: #fcfcfc;
+    color: black;
+}
+.recipe{
+    border-style: groove;
+    border-radius: 5px;
+}
+
+.recipe button{
+    padding: 12px 38px;
+    background-color: #fcfcfc;
+    border-radius: 5px;
+    color: black;
+    border: 3px solid #376E67;
+    font-size: 15px;
+    outline: none;
+}
+
+.recipe button:hover{
+    background-color: #376E67;
+    color: #fcfcfc;
+}
+.scroll-to-top{
+    position: fixed;
+    top: 90vh;
+    right: 15%;
+  }
+.scroll-to-top button {
+    border-radius: 50%;
+}
+  input {
+      width: 25%;
+      padding: 11px 20px;
+      border-radius: 25px;
+      box-sizing: border-box;
+      border: 3px solid #376E67;
+      color: #376E67;
+      background-color: #fcfcfc;
+      outline: none;
+  }
+  select {
+      background-color: #376E67;
+      border-radius: 5px;
+      padding: 11px 30px;
+      outline: none;
+      text-align: center;
+      color: #fcfcfc;
+      }
+  .select-items div:hover, .same-as-selected {
+    background-color: rgba(0, 0, 0, 0.1);
+  }

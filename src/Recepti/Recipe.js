@@ -16,11 +16,12 @@ class Recipe extends React.Component{
     render(){
         let buttonText= this.state.showMe ? "Hide ingredients" : "Show ingredients"
         return(
-            <div>
-            <h1>{this.props.title}</h1>
+            <div className='recipe'>
+            <h2>{this.props.title}</h2>
             <a href={this.props.url} target="_blank" rel="noopener noreferrer"> 
             <img src={this.props.image} alt={this.props.title}/> </a>
-            <p>{this.props.dietLabels}</p>
+            <p>Diet preferences: {this.props.dietLabels}</p>
+            <p>Calories: {Math.floor(this.props.calories)} kcal</p>
             <div>
                 {this.state.showMe ? 
                     <p>{this.props.ingredientLines}</p> : null}
