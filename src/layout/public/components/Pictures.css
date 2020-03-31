@@ -1,0 +1,36 @@
+.slider{
+    position: relative;
+    width: 150%;
+    height: 150vh;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+}
+.slide {
+    position: relative;
+    min-width: auto;
+    height: 80%;
+    transition: 0.5s;
+    overflow: hidden;
+}
+.goLeft{
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50);
+    background: none;
+    border: none;
+    outline: none;
+}
+.goRight{
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translateY(-50);
+    background: none;
+    border: none;
+    outline: none;
+}

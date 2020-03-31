@@ -1,15 +1,12 @@
 import React from 'react'
-import ReceptiList from '../../../Recepti/RecipeList'
+import ReceptiList from './Recepti/RecipeList'
+import Logout from './LogOut'
 
 const Home = ()=>{
-    const styles={
-        backgroundColor:'#376E67',
-        color: 'white'
-    }
     return(
         <>
+        <Logout/>
         <ReceptiList/>
-        <h1 style={styles}>Home page</h1>
         </>
     )
 }

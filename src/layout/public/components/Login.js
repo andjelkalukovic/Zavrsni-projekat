@@ -1,9 +1,9 @@
 import React, { useState } from 'react'
 import { postUser } from '../../../services/apiService'
-import { BrowserRouter, Switch, Route, useHistory, Link } from 'react-router-dom'
+import { useHistory, Link } from 'react-router-dom'
 import { setToken } from '../../../services/authService'
-import Register from './Register'
-
+import Pictures from './Pictures'
+import '../../../index.css'
 const Login = () => {
     const [username, setUsername] = useState('')
     const [password, setPassword] = useState('')
@@ -17,26 +17,30 @@ const Login = () => {
         }).catch('something wrong')
     }
     return (
-        <div>
-            <p>Welcome to Food for ReBoot! We order recipes by their cookability and quality
+        <div className='login'>
+            <h2> <em>Welcome to Food for ReBoot!</em> </h2>
+            <Pictures/>
+            <h3> We order recipes by their cookability and quality
                 so you can always count on getting the best recipes! Our search algorithm returns
                 the most relevant recipes from the most popular and best recipes sources on the web.
-                Please log in for all recepies.</p>
+                Please log in for all recepies.</h3>
+                <div clasName='loginbox'>
+                    <h3>Sign in here</h3>
             <form onSubmit={e => {
                 e.preventDefault();
                 handleLogin(e)
             }}>
-
+                    <p>Username</p>
                 <input type='text'
-                    placeholder='username'
+                    placeholder='Enter username'
                     onInput={e => {
                         e.preventDefault();
                         setUsername(e.target.value)
                     }} />
                 <br />
-
-                <input type='text'
-                    placeholder='password'
+                    <p>Password</p>
+                <input type='password'
+                    placeholder='Enter password'
                     onInput={e => {
                         e.preventDefault();
                         setPassword(e.target.value)
@@ -47,12 +51,7 @@ const Login = () => {
             <div>
                 <p>Don't have an account? Please <Link to="/register">create it</Link> here.</p>
                 <p>Yup, it is free!</p>
-                <BrowserRouter>
-                    <Switch>
-                        <Route exact path="/register"> <Register />
-                        </Route>
-                    </Switch>
-                </BrowserRouter>
+            </div>
             </div>
         </div>
     )

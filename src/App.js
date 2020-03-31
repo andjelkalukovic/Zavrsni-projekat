@@ -5,15 +5,17 @@ import Home from './layout/private/components/HomeComponent';
 import PublicRoutes from './layout/public/PublicRoutes';
 import Login from './layout/public/components/Login';
 import Register from './layout/public/components/Register';
-
+import Header from './layout/public/components/Header';
+import './index.css'
 
 function App() {
   return (<div>
+    <Header/>
     <BrowserRouter>
       <Switch>
         <PublicRoutes component={Login} path='/login' />
+        <PublicRoutes component={Register} path='/register'/>
         <PrivateRoutes component={Home} path='/home'/>
-        <Login component={Register} path='/register'/>
         <Redirect from='/' to='home' />
       </Switch>
     </BrowserRouter>

@@ -1,4 +1,5 @@
 import axios from 'axios'
+import { authHeader } from './authService';
 
 const url=`https://coetus.herokuapp.com/api/users`;
 
@@ -6,13 +7,9 @@ const postUser = async (username, password)=>{
     return await axios.post(`${url}`,{username,password})
 }
 const putUser= async(user)=>{
-    return await axios.put(`${url}`,user)
+    return await axios.put(`${url}`,user, {headers: authHeader()})
 }
-export {postUser, putUser}
-
-// const API_ID = 'bc7a9ea8'
-//     const API_KEY = 'aeeb79e4ea32cf8eb4687aee4313b164'
-//     let query='Popular'
-//     const getAllRecipes = `https://api.edamam.com/search?q=${query}&app_id=${API_ID}&app_key=${API_KEY}`
-
-// export default getAllRecipes;
+const getUserId = async(user_id) => {
+    return await axios.get(`${url}/${user_id}`)
+}
+export {postUser, putUser, getUserId}
