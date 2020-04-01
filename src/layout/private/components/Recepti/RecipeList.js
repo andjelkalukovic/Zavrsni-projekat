@@ -46,23 +46,25 @@ const ReceptiList = () => {
         })
         setOptions(tmp)
     }
-    
+
     console.log(recipe);
     return (
         <div className='recipe-list'>
             <form onSubmit={updateChange}>
                 <input value={search}
-                placeholder='Find your favourite recipe'
+                    placeholder='Find your favourite recipe'
                     type='text'
                     onChange={getSearch} />
                 <button type='submit'>Search</button>
             </form>
-<p>If you are looking for the recipes with specific diet preferences, you can select it here.</p>            
-                <select onChange={(e) => { setSelected(e.target.value) }}>
+            <div>
+                <p>If you are looking for the recipes with specific diet preferences, you can select it here.</p>
+                <select onChange={(e) => { setSelected(e.target.value) }} >
                     {options.map((el) => { return (<option value={el} key={el}>{el}</option>) })}
                 </select>
+            </div>
 
-                <h1>{query.charAt(0).toUpperCase() + query.slice(1)} recipes</h1>
+            <h1>{query.charAt(0).toUpperCase() + query.slice(1)} recipes</h1>
 
             <div>
                 {recipe.map(el => {

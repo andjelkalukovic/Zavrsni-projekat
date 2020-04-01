@@ -7,6 +7,8 @@ import Login from './layout/public/components/Login';
 import Register from './layout/public/components/Register';
 import Header from './layout/public/components/Header';
 import './index.css'
+import 'bootstrap/dist/css/bootstrap.min.css';
+//import Footer from './layout/public/components/Footer';
 
 function App() {
   return (<div>
@@ -19,6 +21,7 @@ function App() {
         <Redirect from='/' to='home' />
       </Switch>
     </BrowserRouter>
+    {/* <Footer/> */}
     </div>
   );
 }

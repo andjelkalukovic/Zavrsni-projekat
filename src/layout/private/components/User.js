@@ -16,7 +16,7 @@
 //             surname: res.data.user.surname,
 //             email: res.data.user.email
 //         })
-//         console.localStorage(res)
+//         console.log(res)
 //     })
 
 //     return(

@@ -1,4 +1,5 @@
 import React from 'react'
+import src from './icons8-slide-up-64.png'
 
 class Button extends React.Component {
     constructor(props) {
@@ -35,7 +36,8 @@ class Button extends React.Component {
         return (
             <div className="scroll-to-top">
                 {is_visible && (
-                    <button onClick={() => this.scrollToTop()}></button>
+                    <img title='Scroll to top' src={src} alt='arrow' style={{width:'70%'}} 
+                    onClick={() => this.scrollToTop()}></img>
                  )}
             </div>
         );

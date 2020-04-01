@@ -10,6 +10,6 @@ const putUser= async(user)=>{
     return await axios.put(`${url}`,user, {headers: authHeader()})
 }
 const getUserId = async(user_id) => {
-    return await axios.get(`${url}/${user_id}`)
+    return await axios.get(`${url}/:${user_id}`)
 }
 export {postUser, putUser, getUserId}
