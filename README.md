@@ -28,5 +28,5 @@ Aplikacija prikazuje recepte sa različitih sajtova širom sveta.
 * Pored input polja, na vrhu se nalazi i select polje koje omogućava filtriranje prikazanih recepata prema hranljivim vrednostima. Ponuđene opcije se razlikuju u zavisnosti od izlistanih recepata u tom momentu.
 * Klikom na sliku recepta, otvara se originalni izvor recepta.
 * Svaki recept ima dugme "Show ingredients". Klikom na dugme prikazuje se lista potrebnih sastojaka, a tekst dugmeta se menja u "Hide ingredients". Drugim klikom na dugme, sastojci ponovo postaju sakriveni, a tekst dugmeta se vraća na prvobitno stanje.
-* Kada se scroll traka pokrene ka dnu stranice, pojavljuje se dugme u vidu strelice koji vraća na početak stranice.
+* Kada se scroll traka pokrene ka dnu stranice, pojavljuje se dugme u vidu strelice koje vraća na početak stranice.
 * Na stranici postoji dugme "Sign out" pomoću kojeg se korisnik odjavljuje sa stranice i vraća na početnu stranu na kojoj je i Login.
