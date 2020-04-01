@@ -22,9 +22,11 @@ Aplikacija poseduje niz obaveznih funkcionalnosti:
 
 ## Slobodne funkcionalnosti
 
-Aplikacija prikazuje recepte sortirane po vrsti jela tj. glavnog sastojka. 
-* Na vrhu stranice postoji input polje koje omogućava pretragu recepta po nazivu ili glavnom sastojku.
+Aplikacija prikazuje recepte sa različitih sajtova širom sveta.
+* Prva strana koju korisnik vidi poseduje slider sa fotografijama u skladu sa aplikacijom. Na istoj stranici se nalazi i Login forma. Ukoliko korisnik nije ulogovan, može otići na link za kreiranje naloga. Klikom na link se odlazi na stranicu za registraciju. Registrovani i ulogovani korisnici mogu pristupiti glavnoj stranici gde su izlistani popularni recepti.
+* Na vrhu stranice postoji input polje koje omogućava pretragu recepata po nazivu ili glavnom sastojku.
 * Pored input polja, na vrhu se nalazi i select polje koje omogućava filtriranje prikazanih recepata prema hranljivim vrednostima. Ponuđene opcije se razlikuju u zavisnosti od izlistanih recepata u tom momentu.
 * Klikom na sliku recepta, otvara se originalni izvor recepta.
-* Svaki recept ima dugme "Show ingredients". Klikom na dugme prikazuje lista potrebnih sastojaka, a tekst dugmeta se menja u "Hide ingredients". Drugim klikom na dugme sastojci ponovo postaju sakriveni, a tekst dugmeta se vraća na prvobitno stanje.
-* Kada se scroll traka pokrene ka dnu stranice, pojavljuje se dugme u vidu strelice koji vraća na početak stranice.
+* Svaki recept ima dugme "Show ingredients". Klikom na dugme prikazuje se lista potrebnih sastojaka, a tekst dugmeta se menja u "Hide ingredients". Drugim klikom na dugme, sastojci ponovo postaju sakriveni, a tekst dugmeta se vraća na prvobitno stanje.
+* Kada se scroll traka pokrene ka dnu stranice, pojavljuje se dugme koji vraća na početak stranice.
+* Na stranici postoji dugme "Sign out" pomoću kojeg se korisnik odjavljuje sa stranice i vraća na početnu stranu na kojoj je i Login.
