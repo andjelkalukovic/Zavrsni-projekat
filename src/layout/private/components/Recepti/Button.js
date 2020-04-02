@@ -36,7 +36,9 @@ class Button extends React.Component {
         return (
             <div className="scroll-to-top">
                 {is_visible && (
-                    <img title='Scroll to top' src={src} alt='arrow' style={{width:'70%'}} 
+                    <img title='Scroll to top' 
+                    src={src} alt='arrow' 
+                    style={{width:'70%'}} 
                     onClick={() => this.scrollToTop()}></img>
                  )}
             </div>

@@ -17,13 +17,12 @@
     color: black;
 }
 .recipe{
-    border-radius: 5px;
-    background-color:#fcfcfc;
-    border-style: groove;
+    border-bottom: 3px groove #afb8b6;
+    margin-top: 15px;
 }
 
 .recipe button{
-    padding: 10px 30px;
+    padding: 6px 28px;
     background-color: #fcfcfc;
     border-radius: 5px;
     color: black;
@@ -44,7 +43,7 @@
 
  .recipe-list input {
       width: 25%;
-      padding: 11px 20px;
+      padding: 8px 20px;
       border-radius: 25px;
       box-sizing: border-box;
       border: 3px solid #41b3a3;
@@ -52,17 +51,23 @@
       background-color: #fcfcfc;
       outline: none;
       box-shadow: 4px 5px #d6d8d8;
+      margin-bottom: 30px;
   }
   .recipe-list select {
       background-color: #41b3a3;
       border-radius: 5px;
-      padding: 10px 28px;
+      padding: 9px 20px;
       outline: none;
       text-align: center;
       color: #fcfcfc;
+      margin-bottom: 30px;
       }
   .recipe-list select option {
-    background: #b6ddd8;
+    background: #afb8b6;
     color: black;
     overflow: hidden;
+  }
+  .recipe-list h1 {
+      margin-bottom: 20px;
+      margin-top: 15px;
   }

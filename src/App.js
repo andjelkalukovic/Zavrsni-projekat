@@ -8,7 +8,6 @@ import Register from './layout/public/components/Register';
 import Header from './layout/public/components/Header';
 import './index.css'
 import 'bootstrap/dist/css/bootstrap.min.css';
-//import Footer from './layout/public/components/Footer';
 
 function App() {
   return (<div>
@@ -18,10 +17,9 @@ function App() {
         <PublicRoutes component={Login} path='/login' />
         <PublicRoutes component={Register} path='/register'/>
         <PrivateRoutes component={Home} path='/home'/>
-        <Redirect from='/' to='home' />
+        <Redirect from='/' to='/login' />
       </Switch>
     </BrowserRouter>
-    {/* <Footer/> */}
     </div>
   );
 }

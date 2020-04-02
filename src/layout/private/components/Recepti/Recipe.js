@@ -26,7 +26,11 @@ class Recipe extends React.Component {
                         <img src={this.props.image} alt={this.props.title} /> </a>
 
                     <p><b>Calories:</b> {Math.floor(this.props.calories)} kcal</p>
-                    <p><b>Diet preferences:</b> {this.props.dietLabels.slice(0, 1)}</p>
+                    <p><b>Diet labels:</b> {this.props.dietLabels.slice(0, 1)}</p>
+                    
+                    <div>
+                    <b>Health labels:</b> {this.props.healthLabels.map(healthlabel=>(<p key={healthlabel}>{healthlabel}</p>))}
+                    </div>
 
                     <div style={{ margin: '15px' }}>
                         {this.state.showMe ?

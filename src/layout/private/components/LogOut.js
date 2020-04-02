@@ -15,7 +15,7 @@ const Logout = () => {
             else { return }
         }
     }
-    
+
     return (
         <button className='logout-button' onClick={(e) => handleChange(e)}
             value='logout'>Sign Out</button>

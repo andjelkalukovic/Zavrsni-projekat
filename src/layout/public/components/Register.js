@@ -3,7 +3,7 @@ import { useHistory, Link } from 'react-router-dom'
 import { putUser, postUser } from '../../../services/apiService'
 import { setToken } from '../../../services/authService'
 import './Register.css'
-import src from './pngguru.com.png'
+import src from './pngguruChef.com.png'
 
 const Register = () => {
     const [name, setName] = useState('')
@@ -36,11 +36,11 @@ const Register = () => {
             alert('Wrong password')
         }
     }
-   
+
     return (
         <div className="position-relative">
             <div className='register'>
-                <img src={src} alt='avatar' className='avatar'/> 
+                <img src={src} alt='avatar' className='avatar' />
                 <h3>Registration</h3>
                 <form onSubmit={(e) => {
                     e.preventDefault();
@@ -104,8 +104,8 @@ const Register = () => {
                         value='Sign Up' />
                 </form>
                 <div>
-                            <p>Already have an account? <br/> Please <Link to="/login">login here</Link>.</p>
-                        </div>
+                    <p>Already have an account? <br /> Please <Link to="/login">login here</Link>.</p>
+                </div>
             </div>
         </div>
 

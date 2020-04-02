@@ -2,7 +2,7 @@
     width: 320px;
     height: auto;
     background: #41b3a3;
-    color: #fff;
+    color: #fcfcfc;
     box-sizing: border-box;
     padding: 80px 30px;
     border-radius: 5px;
@@ -54,8 +54,8 @@
     background: #afb8b6;
   }
 .avatar {
-  width: 70px;
+  width: 87px;
   position: absolute;
-  top: 5px;
-  left: 130px;
+  top: 12px;
+  left: 113px;
 }   

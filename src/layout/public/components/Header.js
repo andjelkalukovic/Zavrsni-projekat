@@ -3,9 +3,9 @@ import React from 'react'
 const Header =()=>{
     const styles={
         backgroundColor:'#41b3a3',
-        color: 'white', 
+        color: '#fcfcfc', 
         height: '70px',
-        marginBottom: '10px'       
+        marginBottom: '30px'       
     }
     return(
         <header style={styles}>
