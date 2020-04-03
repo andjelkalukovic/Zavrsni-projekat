@@ -17,7 +17,7 @@ export default class Pictures extends React.Component{ // eslint-disable-next-li
     }
     render (){
         return (
-            <Carousel style={{width:'30%', height:'30%'}}>
+            <Carousel style={{width:'330px', height:'440px'}}>
                         <Carousel.Item>
                             <img
                             className="d-block w-100"
