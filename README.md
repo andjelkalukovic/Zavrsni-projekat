@@ -2,27 +2,7 @@
 
 ## Opis
 
-Potrebno je realizovati React aplikaciju koja demonstrira vaše znanje. Aplikacija mora da se ponaša responzivno, i da funkcioniše na različitim platformama(telefonu, tabletu, računaru). Zato dizajn aplikacije je potrebno napraviti da bude responzivan. 
-
-## Obavezne funkcionalnosti
-
-Aplikacija poseduje niz obaveznih funkcionalnosti:
-* Postoji forma za registrovanje. Podaci koje je potrebno uneti su:
-  * Ime
-  * Prezime
-  * Korisnicko ime (Username)
-  * Mejl adresa (Email)
-  * Sifra (Confirm Password)
-  * Ponovljena Sifa(Confirm Password)
-  * Sve sem ponovljene šifre se šalje serveru.
-* Postoji forma za login. Podaci koje je potrebno uneti su:
-  * Korisnik se loguje pomocu korisnickog imena i sifre.
-* Provera ulogovanosti (Korisniku koji nije ulogovan zabraniti pristup odredjenim stranicama/rutama)
-* Logovanje i Registracija moraju biti realizovani kroz komunikaciju sa serverom.
-
-## Slobodne funkcionalnosti
-
-Aplikacija prikazuje recepte sa različitih sajtova i naziv joj je Food for ReBoot.
+Aplikacija prikazuje recepte sa različitih sajtova i naziv joj je Food for ReBoot. Nalazi se na linku: https://andjelkalukovic.github.io/home .
 * Prva strana koju korisnik vidi poseduje slider sa fotografijama u skladu sa aplikacijom. Na istoj stranici se nalazi i Login forma.
   * Ukoliko korisnik nije registrovan, može otići na link za kreiranje naloga. Klikom na link se odlazi na stranicu za registraciju, a takođe i tu postoji link koji vraća na Login formu.
   * Svi fajlovi vezani za ove dve rute koje svako može videti nalaze se u folderu "public" koji je u okviru foldera "layout". 
