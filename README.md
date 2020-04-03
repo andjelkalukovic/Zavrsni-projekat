@@ -2,7 +2,7 @@
 
 ## Opis
 
-Aplikacija prikazuje recepte sa različitih sajtova i naziv joj je Food for ReBoot. Nalazi se na linku: https://andjelkalukovic.github.io/home .
+Aplikacija prikazuje recepte sa različitih sajtova i naziv joj je Food for ReBoot. Nalazi se na linku: https://andjelkalukovic.github.io/login .
 * Prva strana koju korisnik vidi poseduje slider sa fotografijama u skladu sa aplikacijom. Na istoj stranici se nalazi i Login forma.
   * Ukoliko korisnik nije registrovan, može otići na link za kreiranje naloga. Klikom na link se odlazi na stranicu za registraciju, a takođe i tu postoji link koji vraća na Login formu.
   * Svi fajlovi vezani za ove dve rute koje svako može videti nalaze se u folderu "public" koji je u okviru foldera "layout". 
