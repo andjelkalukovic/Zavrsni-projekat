@@ -26,6 +26,7 @@ Aplikacija prikazuje recepte sa različitih sajtova i naziv joj je Food for ReBo
 * Prva strana koju korisnik vidi poseduje slider sa fotografijama u skladu sa aplikacijom. Na istoj stranici se nalazi i Login forma.
   * Ukoliko korisnik nije registrovan, može otići na link za kreiranje naloga. Klikom na link se odlazi na stranicu za registraciju, a takođe i tu postoji link koji vraća na Login formu.
   * Svi fajlovi vezani za ove dve rute koje svako može videti nalaze se u folderu "public" koji je u okviru foldera "layout". 
+  * Dokumentacija za Login i registraciju se nalazi u folderu "services"
 * Registrovani i ulogovani korisnici mogu pristupiti glavnoj stranici gde su izlistani popularni recepti. 
   * Podaci koji su vidljivi samo ulogovanim korisnicima smešteni su u fajlovima koji se nalaze u folderu "private" takođe u okviru "layout" foldera. Unutar njega se nalazi i folder "Recepti" koji je vezan samo za funkcije koje se odnose na recepte.
 * Na vrhu stranice postoji input polje koje omogućava pretragu recepata po nazivu ili glavnom sastojku.
