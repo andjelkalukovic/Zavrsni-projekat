@@ -11,11 +11,14 @@ const Login = () => {
 
     const handleLogin = () => {
         postUser(username, password).then((res) => {
-            console.log(res)
+            if(res.data.success){
             setToken(res.data.token)
             setId(res.data.user.user_id)
             history.push('home')
-        }).catch('something wrong')
+        } else {
+            alert('Something wrong. Try again')
+        }
+        }).catch(err=>alert('Wrong username or password'))
     }
     return (
         <div className='container'>
