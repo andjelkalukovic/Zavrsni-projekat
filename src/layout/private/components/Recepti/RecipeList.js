@@ -3,6 +3,7 @@ import React, { useState, useEffect } from 'react'
 import Recipe from './Recipe'
 import Button from './Button'
 import './RecipeList.css'
+import {API_ID, API_KEY} from './apiKey'
 
 const ReceptiList = () => {
     const [query, setQuery] = useState('Popular')
@@ -13,8 +14,6 @@ const ReceptiList = () => {
     const [options2, setOptions2] = useState([])
     const [selected2, setSelected2] = useState('All')
 
-    const API_ID = 'bc7a9ea8'
-    const API_KEY = 'aeeb79e4ea32cf8eb4687aee4313b164'
     const getAllRecipes = `https://api.edamam.com/search?q=${query}&app_id=${API_ID}&app_key=${API_KEY}`
 
 
